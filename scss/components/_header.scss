@@ -1,0 +1,43 @@
+/*Header*/
+
+header{
+    background-color: $color-principal;
+    .logo{
+        display: none;
+    }
+    label{
+        display: none;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .menu{
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+            padding: 15px 20px;
+            align-items: center;
+            margin-bottom: 0;
+            li{
+                a{
+                    text-decoration: none;
+                    color: nth($list: $colores, $n: 2);
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: $medida-predeterminada - 80;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.logo-hidden{
+    width: $medida-predeterminada;
+}
+
+#btn_menu{
+    display: none;
+}

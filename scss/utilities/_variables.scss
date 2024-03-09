@@ -1,0 +1,24 @@
+// Variables
+$color-principal: #E8C57E;
+$color-secundario: #ffffff;
+$color-cards: black;
+$medida-predeterminada: 100px;
+
+// Listas
+$colores: 
+    #E8C57E,
+    #ffffff,
+    black;
+
+$medidas:
+    100px,
+    200px,
+    250px;
+
+// Maps
+$boton-primario: (
+    bg-primario: #E8C57E,
+    texto-primario: #ffffff,
+    width-primario: 150px,
+    border-primario: 2px solid red
+);
